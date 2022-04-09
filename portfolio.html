@@ -164,24 +164,27 @@
 </main>
 <!--section footer-->
 <footer class="footer">
-       <div class="container footer-flex">
-           <div class="footer-contacts-block">
-                <a class="link-logo link logo-footer" href="" lang="en">Web <span class="footer-item-logo">Studio</span></a>
+    <div class="container footer-form-flex ">
+        <div class="footer-flex">
+            <div class="footer-contacts-block">
+                <a class="link-logo link logo-footer" href="" lang="en">Web <span
+                        class="footer-item-logo">Studio</span></a>
                 <address class="address">
                     <ul class="address-list list">
                         <li class="address-item">
                             <a class="address-link link" href="">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
                         <li class="address-item">
-                            <a class="footer-contacts link" href="mailto:info@example.com" lang="en">info@example.com</a>
+                            <a class="footer-contacts link" href="mailto:info@example.com"
+                                lang="en">info@example.com</a>
                         </li>
                         <li class="address-item">
                             <a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
-           </div>
-           <div class="footer-social-block">
+            </div>
+            <div class="footer-social-block">
                 <p class="footer-text">присоединяйтесь</p>
                 <ul class="footer-list list footer-icon-flex">
                     <li class="footer-item"> <a class="footer-link link" href="">
@@ -205,8 +208,22 @@
                             </svg>
                         </a></li>
                 </ul>
-           </div>
-       </div>
-    </footer>
+            </div>
+        </div>
+        <!--form-->
+        <form class="footer-form-block">
+            <b class="footer-text">Подпишитесь на рассылку</b>
+            <div class="form-flex">
+                <label class="footer-label"><input class="footer-input" type="email" name="email"
+                        placeholder="E-mail"></label>
+                <button class="btn-footer" type="submit">Подписаться
+                    <svg class="form-footer-icon">
+                        <use href="./gallery/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </div>
+        </form>
+    </div>
+</footer>
 </body>
 </html>
